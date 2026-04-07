@@ -1,14 +1,8 @@
-# =============================================================================
+
 # app.py  —  Entry point for the Macro Dashboard
-#
 # Run:   python app.py
 # URL:   http://127.0.0.1:8050
-#
-# Panels:
-#   Tab 1 — Rates & Yield Curve   (Week 1)
-#   Tab 2 — Credit Markets        (Week 2)
-#   Tab 3 — Commodities           (Week 3)
-# =============================================================================
+
 
 import dash
 from dash import html, dcc, Input, Output

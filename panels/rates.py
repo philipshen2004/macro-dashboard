@@ -11,6 +11,7 @@
 #   build_stats_table()       → summary DataTable with flag coloring
 #   build_rates_panel()       → assembles all of the above into a Dash layout
 # =============================================================================
+ 
 
 import pandas as pd
 import numpy as np

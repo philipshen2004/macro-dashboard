@@ -11,7 +11,8 @@
 #   Stress only in CCC?  → idiosyncratic / bottom-of-market problem
 #   Stress reaching BBB? → systemic: IG investors starting to worry
 #   Stress in IG?        → full credit crunch (GFC-level)
-#
+
+
 # Charts in this panel:
 #   build_credit_stats_table()   → summary table with flags for all 4 spreads
 #   build_spread_history()       → IG + HY + BBB OAS history with regime bands

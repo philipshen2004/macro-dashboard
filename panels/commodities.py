@@ -14,7 +14,10 @@
 #   Gold / Copper ratio   → rising = risk-off; falling = risk-on/growth
 #   Oil vs Breakevens     → oil drags near-term inflation expectations
 #   Real yields context   → TIPS real yield + breakeven decompose nominal yields
-#
+  
+
+
+
 # Charts:
 #   build_commodity_stats_table()  → summary table with z-scores + flags
 #   build_price_history()          → normalized price index (all = 100 at start)
@@ -23,7 +26,7 @@
 #   build_breakeven_panel()        → 5Y + 10Y breakevens + real yields
 #   build_commodity_heatmap()      → rolling return heatmap across timeframes
 #   build_commodities_panel()      → assembles everything
-# =============================================================================
+
 
 import pandas as pd
 import numpy as np

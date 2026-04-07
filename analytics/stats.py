@@ -247,6 +247,7 @@ def rolling_correlation(
     return aligned.iloc[:, 0].rolling(window=window, min_periods=30).corr(aligned.iloc[:, 1])
 
 
+
 def compute_curve_slope_regimes(rates_df: pd.DataFrame) -> pd.DataFrame:
     """
     Convenience: compute regime stats for the two most-watched spreads,

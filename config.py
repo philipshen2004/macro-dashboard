@@ -2,12 +2,9 @@
 # config.py
 # Central config for the Macro Dashboard.
 # All FRED series IDs, regime date ranges, thresholds, and colors live here.
-# Change things here — nothing else needs editing.
 # =============================================================================
 
 # ── API KEY ──────────────────────────────────────────────────────────────────
-# Get your free key at: https://fred.stlouisfed.org/docs/api/api_key.html
-# Then paste it below (or set env var FRED_API_KEY and leave this as None).
 FRED_API_KEY = "d759169e1982be9436f8c3b238f8735b"
 
 import os
@@ -15,7 +12,6 @@ FRED_API_KEY = os.environ.get("FRED_API_KEY", FRED_API_KEY)
 
 
 # ── FRED SERIES IDs ───────────────────────────────────────────────────────────
-# These are the official FRED codes for each series we pull.
 RATE_SERIES = {
     "3M":  "DGS3MO",    # 3-Month Treasury Constant Maturity (daily)
     "2Y":  "DGS2",      # 2-Year Treasury Constant Maturity (daily)
@@ -138,9 +134,6 @@ REGIMES = [
 ]
 
 
-# ── COLOR PALETTE ─────────────────────────────────────────────────────────────
-# One place for all colors. Used by both the analytics layer and the UI layer.
-# Inspired by Bloomberg terminal meets modern dark UI.
 COLORS = {
     # Layout
     "bg":           "#080c10",      # Near-black page background
