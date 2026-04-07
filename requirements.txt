@@ -1,0 +1,17 @@
+# Macro Dashboard — Week 1 dependencies
+# Install with:  pip install -r requirements.txt
+
+# Dashboard framework
+dash==2.17.1
+plotly==5.22.0
+
+# Data
+fredapi==0.5.1          # FRED API wrapper
+pandas==2.2.2
+numpy==1.26.4
+
+# Stats
+scipy==1.13.0           # Used for future z-test / regression additions
+
+# Utilities
+python-dotenv==1.0.1    # Optional: load FRED_API_KEY from a .env file
